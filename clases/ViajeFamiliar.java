@@ -1,4 +1,4 @@
-package com.mycompany.taller_poli;;
+package com.mycompany.taller_poli;
 
 import java.util.Date;
 
