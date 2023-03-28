@@ -1,3 +1,7 @@
+package com.mycompany.taller_poli;
+
+import java.util.Date;
+
 public class ViajeIncentivo extends Viaje {
     private String empresa;
 
@@ -26,5 +30,4 @@ public class ViajeIncentivo extends Viaje {
     public String cualquierMetodo2() {
         return "Método implementado en la clase hija viaje de incentivo";
     }
-
 }
