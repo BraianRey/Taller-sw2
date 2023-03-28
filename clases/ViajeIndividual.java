@@ -1,11 +1,14 @@
-public class ViajeIncentivo extends Viaje {
+package com.mycompany.taller_poli;;
+
+import java.util.Date;
+
+public class ViajeIndividual extends Viaje {
 
     private String empresa;
 
-    public ViajeIncentivo(String origen, String destino, int costo, Date fechaSalida, Date fechaLlegada,
-            String empresa) {
+    public ViajeIndividual(String origen, String destino, int costo, Date fechaSalida, Date fechaLlegada) {
         super(origen, destino, costo, fechaSalida, fechaLlegada);
-        this.empresa = empresa;
+        //this.empresa = empresa;
     }
 
     public String getEmpresa() {
@@ -20,7 +23,8 @@ public class ViajeIncentivo extends Viaje {
     public String descripcion() {
         return "Viaje incentivo que te envia la empresa " + empresa;
     }
-
+    
+    @Override
     public String cualquierMetodo2() {
         return "Método implementado en la clase hija viaje de incentivo";
     }
