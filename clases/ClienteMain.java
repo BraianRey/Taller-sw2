@@ -2,13 +2,8 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  */
 
-package com.unicauca.tallerpolimorfismo.cliente;
+package com.mycompany.taller_poli;
 
-import com.unicauca.tallerpolimorfismo.modelo.Viaje;
-import com.unicauca.tallerpolimorfismo.modelo.ViajeFamiliar;
-import com.unicauca.tallerpolimorfismo.modelo.ViajeIncentivo;
-import com.unicauca.tallerpolimorfismo.modelo.ViajeIndividual;
-import com.unicauca.tallerpolimorfismo.modelo.ViajeTodoIncluido;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
